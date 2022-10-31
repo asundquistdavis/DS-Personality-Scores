@@ -1,0 +1,20 @@
+* {text-align: center;}
+
+.header {background-color: white; border: 1px; border-color: black; border-radius: 10px; border-style: solid; box-shadow: 1px 1px 5px gray; padding: 10px;}
+.card-a {background-color: white; border: 1px; border-color: black; border-radius: 10px; border-style: solid;
+      width: 16vw; padding: 10px; box-shadow: 1px 1px 5px gray; float: left;}
+.card-a:not(:first-child) { margin-left: 1vw;}
+.card-a:hover {box-shadow: 5px 5px 5px gray;}
+.card-a a {text-decoration: none; color: black;}
+.card-b {background-color: white; border: 1px; border-color: black; border-radius: 10px; border-style: solid; box-shadow: 1px 1px 5px gray; padding: 10px; float: left; width: 70vw; margin-top: 16px;
+    margin-bottom: 16px;}
+
+a.next {padding: 5px; text-decoration: none; background-color: #cfcfcf; color: black; float: right; border-radius: 5px; border-style: solid; 
+    box-shadow: 1px 1px 5px gray; border: 1px; border-color: black; margin-top: 5px;}
+a.previous {padding: 5px;text-decoration: none; background-color: #cfcfcf; color: black; float: left; border-radius: 5px; border-style: solid; 
+    box-shadow: 1px 1px 5px gray; border: 1px; border-color: black; margin-top: 5px;}
+a.next:hover {box-shadow: 5px 5px 5px gray;}
+a.previous:hover {box-shadow: 5px 5px 5px gray;}
+a.home {padding: 5px; text-decoration: none; background-color: #cfcfcf; color: black; border-radius: 5px; border-style: solid; float: left; margin-left: 35%;
+    box-shadow: 1px 1px 5px gray; border: 1px; border-color: black; margin-top: 5px;}
+a.home:hover {box-shadow: 5px 5px 5px gray;}
